@@ -7,14 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3F318A6CD9652235B485D4 /* Pods_Gary_Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E346834679D02732329583E1 /* Pods_Gary_Portal.framework */; };
 		E24E77FA20484EAF0026DDF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E77F920484EAF0026DDF7 /* AppDelegate.swift */; };
 		E24E77FC20484EAF0026DDF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E77FB20484EAF0026DDF7 /* ViewController.swift */; };
 		E24E77FF20484EAF0026DDF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24E77FD20484EAF0026DDF7 /* Main.storyboard */; };
 		E24E780120484EAF0026DDF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24E780020484EAF0026DDF7 /* Assets.xcassets */; };
 		E24E780420484EAF0026DDF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24E780220484EAF0026DDF7 /* LaunchScreen.storyboard */; };
+		E24E780F2048522B0026DDF7 /* firstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E780E2048522A0026DDF7 /* firstScreen.swift */; };
+		E24E7811204891910026DDF7 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E7810204891910026DDF7 /* loginViewController.swift */; };
+		E24E7813204894320026DDF7 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E7812204894320026DDF7 /* DismissAnimator.swift */; };
+		E25679152049A0E7006E5278 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E25679142049A0E7006E5278 /* GoogleService-Info.plist */; };
+		E25679172049A579006E5278 /* queueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25679162049A579006E5278 /* queueView.swift */; };
+		E25679192049A968006E5278 /* firstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25679182049A968006E5278 /* firstView.swift */; };
+		E256791B2049AD52006E5278 /* bannedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E256791A2049AD52006E5278 /* bannedView.swift */; };
+		E25679202049B1C0006E5278 /* mainThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E256791F2049B1C0006E5278 /* mainThree.storyboard */; };
+		E2567925204A0311006E5278 /* profileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2567924204A0311006E5278 /* profileHeader.swift */; };
+		E256E66B2048B3CA00839F9C /* signUp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E256E66A2048B3CA00839F9C /* signUp1.swift */; };
+		E26172F7205E69BE00F07099 /* settingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26172F6205E69BE00F07099 /* settingsView.swift */; };
+		E26484FA204C2FF300D8D0AD /* feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26484F9204C2FF300D8D0AD /* feed.swift */; };
+		E26484FC204C314B00D8D0AD /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26484FB204C314B00D8D0AD /* feedCell.swift */; };
+		E26484FE204C7B8A00D8D0AD /* mainPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26484FD204C7B8A00D8D0AD /* mainPager.swift */; };
+		E2648500204C882B00D8D0AD /* feeder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26484FF204C882B00D8D0AD /* feeder.storyboard */; };
+		E264A1A820508EBC00029E76 /* feedUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264A1A720508EBC00029E76 /* feedUpload.swift */; };
+		E265B4C4205320AD00E5E7A9 /* uploadFeedHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E265B4C3205320AD00E5E7A9 /* uploadFeedHeader.swift */; };
+		E266FA15204A983A00813968 /* mainProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E266FA14204A983A00813968 /* mainProfile.swift */; };
+		E266FA17204A99A800813968 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E266FA16204A99A800813968 /* GradientButton.swift */; };
+		E2672972204BF15200B92A30 /* garyGramPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2672971204BF15200B92A30 /* garyGramPager.swift */; };
+		E2672974204BF24A00B92A30 /* feedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2672973204BF24A00B92A30 /* feedView.swift */; };
+		E2672976204BF2BC00B92A30 /* votesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2672975204BF2BC00B92A30 /* votesView.swift */; };
+		E2672978204BF49B00B92A30 /* storyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2672977204BF49B00B92A30 /* storyView.swift */; };
+		E267297C204BF66300B92A30 /* feedHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E267297B204BF66300B92A30 /* feedHeader.swift */; };
+		E269017A204F2E4A0087E9E9 /* commentsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2690179204F2E4A0087E9E9 /* commentsTable.swift */; };
+		E269017C204F308C0087E9E9 /* comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269017B204F308C0087E9E9 /* comment.swift */; };
+		E269017E204F34670087E9E9 /* commentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269017D204F34670087E9E9 /* commentCell.swift */; };
+		E2690180204F43AB0087E9E9 /* stringTrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269017F204F43AB0087E9E9 /* stringTrim.swift */; };
+		E2936911204DE44B00D4B7E7 /* commentsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2936910204DE44B00D4B7E7 /* commentsHeader.swift */; };
+		E2A169A3205E7E6000DD99D1 /* pollCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A169A2205E7E6000DD99D1 /* pollCellTableViewCell.swift */; };
+		E2A169A5205E8AFA00DD99D1 /* pollTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A169A4205E8AFA00DD99D1 /* pollTable.swift */; };
+		E2A580B2204DCD1D008C0148 /* mainSwiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A580B1204DCD1D008C0148 /* mainSwiper.swift */; };
+		E2CE05B920494E7C00C601FF /* mainSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CE05B820494E7C00C601FF /* mainSignUp.swift */; };
+		E2E2ADA6206C103200E921BE /* mainTabber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E2ADA5206C103200E921BE /* mainTabber.swift */; };
+		E2E2ADAB206C199600E921BE /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2E2ADA7206C199400E921BE /* Montserrat-Light.ttf */; };
+		E2E2ADAC206C199600E921BE /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2E2ADA8206C199500E921BE /* Montserrat-Regular.ttf */; };
+		E2E2ADAD206C199600E921BE /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2E2ADA9206C199500E921BE /* Montserrat-ExtraLight.ttf */; };
+		E2E2ADAE206C199600E921BE /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2E2ADAA206C199600E921BE /* Montserrat-SemiBold.ttf */; };
+		E2E2ADB2206C265500E921BE /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E2ADB1206C265500E921BE /* profileView.swift */; };
+		E2E9F995205DDBFE00A58998 /* poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E9F994205DDBFE00A58998 /* poll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67454547737A625E64830161 /* Pods-Gary Portal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gary Portal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gary Portal/Pods-Gary Portal.debug.xcconfig"; sourceTree = "<group>"; };
+		A9F1D5A02D68C53B624879B5 /* Pods-Gary Portal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gary Portal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gary Portal/Pods-Gary Portal.release.xcconfig"; sourceTree = "<group>"; };
 		E24E77F620484EAF0026DDF7 /* Gary Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gary Portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24E77F920484EAF0026DDF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E24E77FB20484EAF0026DDF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +65,48 @@
 		E24E780020484EAF0026DDF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24E780320484EAF0026DDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E24E780520484EAF0026DDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24E780E2048522A0026DDF7 /* firstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstScreen.swift; sourceTree = "<group>"; };
+		E24E7810204891910026DDF7 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		E24E7812204894320026DDF7 /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+		E25679142049A0E7006E5278 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E25679162049A579006E5278 /* queueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = queueView.swift; sourceTree = "<group>"; };
+		E25679182049A968006E5278 /* firstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstView.swift; sourceTree = "<group>"; };
+		E256791A2049AD52006E5278 /* bannedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannedView.swift; sourceTree = "<group>"; };
+		E256791F2049B1C0006E5278 /* mainThree.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mainThree.storyboard; sourceTree = "<group>"; };
+		E2567924204A0311006E5278 /* profileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileHeader.swift; sourceTree = "<group>"; };
+		E256E66A2048B3CA00839F9C /* signUp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp1.swift; sourceTree = "<group>"; };
+		E256E66C2048B47100839F9C /* Gary Portal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gary Portal-Bridging-Header.h"; sourceTree = "<group>"; };
+		E26172F6205E69BE00F07099 /* settingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsView.swift; sourceTree = "<group>"; };
+		E26484F9204C2FF300D8D0AD /* feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feed.swift; sourceTree = "<group>"; };
+		E26484FB204C314B00D8D0AD /* feedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
+		E26484FD204C7B8A00D8D0AD /* mainPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPager.swift; sourceTree = "<group>"; };
+		E26484FF204C882B00D8D0AD /* feeder.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = feeder.storyboard; sourceTree = "<group>"; };
+		E264A1A720508EBC00029E76 /* feedUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedUpload.swift; sourceTree = "<group>"; };
+		E265B4C3205320AD00E5E7A9 /* uploadFeedHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadFeedHeader.swift; sourceTree = "<group>"; };
+		E266FA14204A983A00813968 /* mainProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainProfile.swift; sourceTree = "<group>"; };
+		E266FA16204A99A800813968 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		E2672971204BF15200B92A30 /* garyGramPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garyGramPager.swift; sourceTree = "<group>"; };
+		E2672973204BF24A00B92A30 /* feedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedView.swift; sourceTree = "<group>"; };
+		E2672975204BF2BC00B92A30 /* votesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = votesView.swift; sourceTree = "<group>"; };
+		E2672977204BF49B00B92A30 /* storyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyView.swift; sourceTree = "<group>"; };
+		E267297B204BF66300B92A30 /* feedHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedHeader.swift; sourceTree = "<group>"; };
+		E2690179204F2E4A0087E9E9 /* commentsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentsTable.swift; sourceTree = "<group>"; };
+		E269017B204F308C0087E9E9 /* comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comment.swift; sourceTree = "<group>"; };
+		E269017D204F34670087E9E9 /* commentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentCell.swift; sourceTree = "<group>"; };
+		E269017F204F43AB0087E9E9 /* stringTrim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringTrim.swift; sourceTree = "<group>"; };
+		E2936910204DE44B00D4B7E7 /* commentsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentsHeader.swift; sourceTree = "<group>"; };
+		E2A169A2205E7E6000DD99D1 /* pollCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pollCellTableViewCell.swift; sourceTree = "<group>"; };
+		E2A169A4205E8AFA00DD99D1 /* pollTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pollTable.swift; sourceTree = "<group>"; };
+		E2A580B1204DCD1D008C0148 /* mainSwiper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainSwiper.swift; sourceTree = "<group>"; };
+		E2CE05B820494E7C00C601FF /* mainSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainSignUp.swift; sourceTree = "<group>"; };
+		E2E2ADA5206C103200E921BE /* mainTabber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTabber.swift; sourceTree = "<group>"; };
+		E2E2ADA7206C199400E921BE /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		E2E2ADA8206C199500E921BE /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		E2E2ADA9206C199500E921BE /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E2E2ADAA206C199600E921BE /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		E2E2ADB1206C265500E921BE /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
+		E2E9F994205DDBFE00A58998 /* poll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poll.swift; sourceTree = "<group>"; };
+		E346834679D02732329583E1 /* Pods_Gary_Portal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gary_Portal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +114,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3F318A6CD9652235B485D4 /* Pods_Gary_Portal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D7253499B153E0CC83E2C1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67454547737A625E64830161 /* Pods-Gary Portal.debug.xcconfig */,
+				A9F1D5A02D68C53B624879B5 /* Pods-Gary Portal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E24E77ED20484EAE0026DDF7 = {
 			isa = PBXGroup;
 			children = (
+				E25679142049A0E7006E5278 /* GoogleService-Info.plist */,
 				E24E77F820484EAF0026DDF7 /* Gary Portal */,
 				E24E77F720484EAF0026DDF7 /* Products */,
+				4D7253499B153E0CC83E2C1F /* Pods */,
+				F84754D2886053B40693BD70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +152,134 @@
 		E24E77F820484EAF0026DDF7 /* Gary Portal */ = {
 			isa = PBXGroup;
 			children = (
+				E2672970204BEE2200B92A30 /* Misc */,
+				E256791E2049B1B3006E5278 /* Main */,
+				E256E6702048B53500839F9C /* Utils */,
+				E24E780D204852040026DDF7 /* First */,
 				E24E77F920484EAF0026DDF7 /* AppDelegate.swift */,
 				E24E77FB20484EAF0026DDF7 /* ViewController.swift */,
-				E24E77FD20484EAF0026DDF7 /* Main.storyboard */,
+				E256E66C2048B47100839F9C /* Gary Portal-Bridging-Header.h */,
 				E24E780020484EAF0026DDF7 /* Assets.xcassets */,
 				E24E780220484EAF0026DDF7 /* LaunchScreen.storyboard */,
 				E24E780520484EAF0026DDF7 /* Info.plist */,
+				E24E7812204894320026DDF7 /* DismissAnimator.swift */,
 			);
 			path = "Gary Portal";
+			sourceTree = "<group>";
+		};
+		E24E780D204852040026DDF7 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				E24E77FD20484EAF0026DDF7 /* Main.storyboard */,
+				E24E780E2048522A0026DDF7 /* firstScreen.swift */,
+				E24E7810204891910026DDF7 /* loginViewController.swift */,
+				E256E66A2048B3CA00839F9C /* signUp1.swift */,
+				E2CE05B820494E7C00C601FF /* mainSignUp.swift */,
+				E25679162049A579006E5278 /* queueView.swift */,
+				E25679182049A968006E5278 /* firstView.swift */,
+				E256791A2049AD52006E5278 /* bannedView.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		E256791E2049B1B3006E5278 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E2E2ADA2206C060F00E921BE /* mainThree */,
+				E26172F5205E69AC00F07099 /* Settings */,
+				E26484F8204C2FCC00D8D0AD /* Feed */,
+				E256791F2049B1C0006E5278 /* mainThree.storyboard */,
+				E26484FF204C882B00D8D0AD /* feeder.storyboard */,
+				E2567924204A0311006E5278 /* profileHeader.swift */,
+				E266FA14204A983A00813968 /* mainProfile.swift */,
+				E2672971204BF15200B92A30 /* garyGramPager.swift */,
+				E2672973204BF24A00B92A30 /* feedView.swift */,
+				E2672975204BF2BC00B92A30 /* votesView.swift */,
+				E2672977204BF49B00B92A30 /* storyView.swift */,
+				E267297B204BF66300B92A30 /* feedHeader.swift */,
+				E26484FD204C7B8A00D8D0AD /* mainPager.swift */,
+				E2A580B1204DCD1D008C0148 /* mainSwiper.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E256E6702048B53500839F9C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E2E2ADA9206C199500E921BE /* Montserrat-ExtraLight.ttf */,
+				E2E2ADA7206C199400E921BE /* Montserrat-Light.ttf */,
+				E2E2ADA8206C199500E921BE /* Montserrat-Regular.ttf */,
+				E2E2ADAA206C199600E921BE /* Montserrat-SemiBold.ttf */,
+				E266FA16204A99A800813968 /* GradientButton.swift */,
+				E269017F204F43AB0087E9E9 /* stringTrim.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E26172F5205E69AC00F07099 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E26172F6205E69BE00F07099 /* settingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E26484F8204C2FCC00D8D0AD /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				E2E9F993205DDBEB00A58998 /* Poll */,
+				E265B4C220531FE900E5E7A9 /* Upload */,
+				E26484F9204C2FF300D8D0AD /* feed.swift */,
+				E26484FB204C314B00D8D0AD /* feedCell.swift */,
+				E2936910204DE44B00D4B7E7 /* commentsHeader.swift */,
+				E2690179204F2E4A0087E9E9 /* commentsTable.swift */,
+				E269017B204F308C0087E9E9 /* comment.swift */,
+				E269017D204F34670087E9E9 /* commentCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		E265B4C220531FE900E5E7A9 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				E264A1A720508EBC00029E76 /* feedUpload.swift */,
+				E265B4C3205320AD00E5E7A9 /* uploadFeedHeader.swift */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		E2672970204BEE2200B92A30 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		E2E2ADA2206C060F00E921BE /* mainThree */ = {
+			isa = PBXGroup;
+			children = (
+				E2E2ADA5206C103200E921BE /* mainTabber.swift */,
+				E2E2ADB1206C265500E921BE /* profileView.swift */,
+			);
+			path = mainThree;
+			sourceTree = "<group>";
+		};
+		E2E9F993205DDBEB00A58998 /* Poll */ = {
+			isa = PBXGroup;
+			children = (
+				E2E9F994205DDBFE00A58998 /* poll.swift */,
+				E2A169A2205E7E6000DD99D1 /* pollCellTableViewCell.swift */,
+				E2A169A4205E8AFA00DD99D1 /* pollTable.swift */,
+			);
+			path = Poll;
+			sourceTree = "<group>";
+		};
+		F84754D2886053B40693BD70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E346834679D02732329583E1 /* Pods_Gary_Portal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E24E780820484EAF0026DDF7 /* Build configuration list for PBXNativeTarget "Gary Portal" */;
 			buildPhases = (
+				323F53AEB9E297755BBECE19 /* [CP] Check Pods Manifest.lock */,
 				E24E77F220484EAF0026DDF7 /* Sources */,
 				E24E77F320484EAF0026DDF7 /* Frameworks */,
 				E24E77F420484EAF0026DDF7 /* Resources */,
+				293E6B7B9099243A3C0BA0BC /* [CP] Embed Pods Frameworks */,
+				8352CE4C138C752F85705F9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +317,7 @@
 				TargetAttributes = {
 					E24E77F520484EAF0026DDF7 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,21 +345,151 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E2ADAC206C199600E921BE /* Montserrat-Regular.ttf in Resources */,
+				E2E2ADAE206C199600E921BE /* Montserrat-SemiBold.ttf in Resources */,
 				E24E780420484EAF0026DDF7 /* LaunchScreen.storyboard in Resources */,
+				E25679152049A0E7006E5278 /* GoogleService-Info.plist in Resources */,
 				E24E780120484EAF0026DDF7 /* Assets.xcassets in Resources */,
+				E2E2ADAB206C199600E921BE /* Montserrat-Light.ttf in Resources */,
+				E2648500204C882B00D8D0AD /* feeder.storyboard in Resources */,
+				E25679202049B1C0006E5278 /* mainThree.storyboard in Resources */,
 				E24E77FF20484EAF0026DDF7 /* Main.storyboard in Resources */,
+				E2E2ADAD206C199600E921BE /* Montserrat-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		293E6B7B9099243A3C0BA0BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gary Portal/Pods-Gary Portal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AAPhotoCircleCrop/AAPhotoCircleCrop.framework",
+				"${BUILT_PRODUCTS_DIR}/AZDialogView/AZDialogView.framework",
+				"${BUILT_PRODUCTS_DIR}/EZSwipeController/EZSwipeController.framework",
+				"${BUILT_PRODUCTS_DIR}/EZYGradientView/EZYGradientView.framework",
+				"${BUILT_PRODUCTS_DIR}/FoldingTabBar/FoldingTabBar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
+				"${BUILT_PRODUCTS_DIR}/PinchToZoomImageView/PinchToZoomImageView.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TOMSMorphingLabel/TOMSMorphingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/TwicketSegmentedControl/TwicketSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AAPhotoCircleCrop.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZDialogView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZSwipeController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZYGradientView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingTabBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinchToZoomImageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOMSMorphingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwicketSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gary Portal/Pods-Gary Portal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		323F53AEB9E297755BBECE19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gary Portal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8352CE4C138C752F85705F9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gary Portal/Pods-Gary Portal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E24E77F220484EAF0026DDF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24E7811204891910026DDF7 /* loginViewController.swift in Sources */,
+				E265B4C4205320AD00E5E7A9 /* uploadFeedHeader.swift in Sources */,
+				E26484FC204C314B00D8D0AD /* feedCell.swift in Sources */,
+				E2672972204BF15200B92A30 /* garyGramPager.swift in Sources */,
+				E25679192049A968006E5278 /* firstView.swift in Sources */,
+				E24E780F2048522B0026DDF7 /* firstScreen.swift in Sources */,
+				E26484FE204C7B8A00D8D0AD /* mainPager.swift in Sources */,
+				E2E2ADB2206C265500E921BE /* profileView.swift in Sources */,
+				E2567925204A0311006E5278 /* profileHeader.swift in Sources */,
+				E2936911204DE44B00D4B7E7 /* commentsHeader.swift in Sources */,
+				E25679172049A579006E5278 /* queueView.swift in Sources */,
+				E2690180204F43AB0087E9E9 /* stringTrim.swift in Sources */,
+				E2A169A3205E7E6000DD99D1 /* pollCellTableViewCell.swift in Sources */,
+				E2A169A5205E8AFA00DD99D1 /* pollTable.swift in Sources */,
 				E24E77FC20484EAF0026DDF7 /* ViewController.swift in Sources */,
+				E264A1A820508EBC00029E76 /* feedUpload.swift in Sources */,
+				E269017C204F308C0087E9E9 /* comment.swift in Sources */,
+				E2E9F995205DDBFE00A58998 /* poll.swift in Sources */,
+				E269017E204F34670087E9E9 /* commentCell.swift in Sources */,
+				E269017A204F2E4A0087E9E9 /* commentsTable.swift in Sources */,
+				E2672974204BF24A00B92A30 /* feedView.swift in Sources */,
+				E2E2ADA6206C103200E921BE /* mainTabber.swift in Sources */,
+				E266FA17204A99A800813968 /* GradientButton.swift in Sources */,
+				E2672978204BF49B00B92A30 /* storyView.swift in Sources */,
+				E267297C204BF66300B92A30 /* feedHeader.swift in Sources */,
+				E24E7813204894320026DDF7 /* DismissAnimator.swift in Sources */,
+				E26484FA204C2FF300D8D0AD /* feed.swift in Sources */,
+				E256791B2049AD52006E5278 /* bannedView.swift in Sources */,
+				E26172F7205E69BE00F07099 /* settingsView.swift in Sources */,
+				E2CE05B920494E7C00C601FF /* mainSignUp.swift in Sources */,
+				E2672976204BF2BC00B92A30 /* votesView.swift in Sources */,
 				E24E77FA20484EAF0026DDF7 /* AppDelegate.swift in Sources */,
+				E2A580B2204DCD1D008C0148 /* mainSwiper.swift in Sources */,
+				E256E66B2048B3CA00839F9C /* signUp1.swift in Sources */,
+				E266FA15204A983A00813968 /* mainProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +624,46 @@
 		};
 		E24E780920484EAF0026DDF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67454547737A625E64830161 /* Pods-Gary Portal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H3J46CN24;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AAPhotoCircleCrop\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AZDialogView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EZSwipeController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EZYGradientView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IHKeyboardAvoiding\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MGSwipeTableCell\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Pastel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PinchToZoomImageView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RevealingSplashView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TOMSMorphingLabel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TextFieldEffects\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TwicketSegmentedControl\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks\"",
+				);
 				INFOPLIST_FILE = "Gary Portal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aroundme.Gary-Portal";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aroundme.AlMurray;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gary Portal/Gary Portal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +671,45 @@
 		};
 		E24E780A20484EAF0026DDF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F1D5A02D68C53B624879B5 /* Pods-Gary Portal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H3J46CN24;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AAPhotoCircleCrop\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AZDialogView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EZSwipeController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EZYGradientView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IHKeyboardAvoiding\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MGSwipeTableCell\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Pastel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PinchToZoomImageView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RevealingSplashView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TOMSMorphingLabel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TextFieldEffects\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TwicketSegmentedControl\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks\"",
+				);
 				INFOPLIST_FILE = "Gary Portal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aroundme.Gary-Portal";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aroundme.AlMurray;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gary Portal/Gary Portal-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
